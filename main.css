@@ -1,0 +1,103 @@
+* { 
+    font-family: helvetica;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+header {
+    font-family: 'Vampiro One', cursive;
+    font-size: 50px;
+    color: #28fd41;
+    margin: 40px 0 0 0;
+
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0 40px 0;
+
+}
+
+table {
+    align-items: center;
+}
+
+tbody {
+    display: flex;
+    margin: 20px;
+    height: 360px;
+    width: 420px;
+    border: 2px solid black;
+    background-color: #fdff00;
+}
+
+tr {
+    display: grid;
+    width: 70px;
+}
+
+
+td {
+    display: grid;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 2px;
+    background-color: black;
+}
+
+footer {
+    display: flex;
+    color: #28fd41;
+    align-items: center;
+}
+
+div {
+    font-family: 'Vampiro One', cursive;
+    font-size: 18px;
+    margin: 0 50px 20px 50px;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    font-family: 'Vampiro One', cursive;
+    font-size: 30px;
+    margin: 0;
+}
+
+#replay {
+    border-radius: 6px;
+    border-color: #28fd41;
+    background-color: black;
+    color: #28fd41;
+    font-family: 'Vampiro One', cursive;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+input {
+    margin: 10px;
+    border-radius: 6px;
+    background-color: black;
+    text-align: center;
+
+}
+
+#player-one {
+    border: 4px solid #ff33cd;
+    color: white;
+}
+
+#player-two {
+    border: 4px solid #00ffff;
+    color: white;
+
+}
